@@ -1,0 +1,64 @@
+
+<div class="sidebar-wrapper">
+  <div *ngIf="isMobileMenu()">
+    <form class="navbar-form">
+      <span class="bmd-form-group">
+        <div class="input-group no-border">
+          <input type="text" value="" class="form-control" placeholder="Search...">
+          <button mat-raised-button type="submit" class="btn btn-white btn-round btn-just-icon">
+            <i class="material-icons">search</i>
+            <div class="ripple-container"></div>
+          </button>
+        </div>
+      </span>
+    </form>
+    <ul class="nav navbar-nav nav-mobile-menu">
+        <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">
+                <i class="material-icons">dashboard</i>
+                <p>
+                    <span class="d-lg-none d-md-block">Stats</span>
+                </p>
+            </a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="javascript:void(0)" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="material-icons">notifications</i>
+                <span class="notification">5</span>
+                <p>
+                    <span class="d-lg-none d-md-block">Some Actions</span>
+                </p>
+            </a>
+           
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">
+                <i class="material-icons">person</i>
+                <p>
+                    <span class="d-lg-none d-md-block">Account</span>
+                </p>
+            </a>
+        </li>
+    </ul>
+  </div>
+    <ul class="nav">
+        <div style="text-align: center">
+       <b><h3>Common symptoms</h3></b></div>
+        <br>
+
+        <li>
+            <img src="/assets/img/fever.png" height="99" width="99"/><b>Fever</b>
+        </li><br>
+        <li>
+            <img src="/assets/img/fever.png" height="99" width="99"/><b>Cough</b>
+        </li><br>
+        <li>
+            <img src="/assets/img/fever.png" height="99" width="99"/><b>Sore Throat</b>
+        </li><br>
+        <li>
+            <img src="/assets/img/fever.png" height="99" width="99"/><b>Difficulty in breathing</b>
+        </li>
+    </ul>
+    
+</div>
+

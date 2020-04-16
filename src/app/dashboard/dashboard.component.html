@@ -1,0 +1,168 @@
+<!-- <div class="main-content"style="background-color:bisque"> -->
+    
+  <div class="container-fluid" style="background-color:#ffd54f" style="text-align: center;">
+    <br>
+    <font color = "#000000"><font size="6"><b>COVID-19 distribution in Sri Lanka</b></font></font>
+    <b><font color = "#000000">Last updated on :{{updated_date_time}}</font></b>
+      <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="card card-stats">
+                  <div class="card-header card-header-warning card-header-icon">
+                      <div class="card-icon">
+                          <i class="material-icons">local_hospital</i>
+                      </div>
+                      <p class="card-category"><b>Global Cases</b></p>
+                      <h3 class="card-title">{{global_total_cases| number: '2.'}}</h3>
+                  </div>
+                  <div class="card-footer">
+                      <div class="stats">
+                          <i class="material-icons text-danger"></i><font color = "#c62828">
+                         {{global_new_cases| number: '2.'}} new cases</font>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="card card-stats">
+                  
+                  <div class="card-header card-header-success card-header-icon">
+                      <div class="card-icon">
+                          <i class="material-icons">directions_run</i>
+                      </div>
+                      <p class="card-category">Global recoveries</p>
+                      <h3 class="card-title">{{global_recovered| number: '2.'}}</h3>
+                  </div>
+                  <div class="card-footer">
+                      <div class="stats">
+                          <i class="material-icons"></i><font color = "#ffffff"> Last 24 Hours </font>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="card card-stats">
+                  <div class="card-header card-header-danger card-header-icon">
+                      <div class="card-icon">
+                          <i class="material-icons">hotel</i>
+                      </div>
+                      <p class="card-category">Global deaths</p>
+                      <h3 class="card-title">{{global_deaths| number: '2.'}}</h3>
+                  </div>
+                  <div class="card-footer">
+                      <div class="stats">
+                          <i class="material-icons"></i> <font color = "#c62828">{{global_new_deaths| number: '2.'}} new deaths
+                      </font>
+                        </div>
+                  </div>
+              </div>
+          </div>
+          
+      </div>
+      <!-- Local cases  -->
+      <div class="row">
+         
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header card-header-warning card-header-icon">
+                    <div class="card-icon">
+                        <i class="material-icons">local_hospital</i>
+                    </div>
+                    <p class="card-category">Local Cases</p>
+                    <h3 class="card-title">{{local_total_cases| number: '2.'}}</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons text-danger"></i> <font color = "#c62828">
+                        {{local_new_cases| number: '2.'}}  new cases</font>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header card-header-success card-header-icon">
+                    <div class="card-icon">
+                        <i class="material-icons">directions_run</i>
+                    </div>
+                    <p class="card-category">Local recoveries</p>
+                    <h3 class="card-title">{{local_recovered| number: '2.'}}</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons"></i>
+                        <font color = "#c62828"> {{local_total_number_of_individuals_in_hospitals}} still in hospital</font>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="card card-stats">
+                <div class="card-header card-header-danger card-header-icon">
+                    <div class="card-icon">
+                        <i class="material-icons">hotel</i>
+                    </div>
+                    <p class="card-category">Local deaths</p>
+                    <h3 class="card-title">{{local_deaths| number: '2.'}}</h3>
+                </div>
+                <div class="card-footer">
+                    <div class="stats">
+                        <i class="material-icons"></i><font color = "#c62828">{{local_new_deaths| number: '2.'}} new deaths
+                        </font> 
+                        </div>
+                </div>
+            </div>
+           
+        </div>
+     
+    </div>
+
+      <div class="row">
+          <!-- <div class="col-md-8"> -->
+              <!-- <div class="card card-chart"> -->
+                
+                  <!-- <div class="card-header card-header-success">
+                    <!-- <div id="chartContainer" style="height: 370px; width: 100%; margin-left:auto;margin-right:auto;"></div> -->
+                      <!-- <div class="ct-chart" id="dailySalesChart"></div> -->
+                  <!-- </div> --> 
+                  
+                  <!-- <div class="card-body-md">
+                      <h4 class="card-title">Visual representation of the diease progression</h4> 
+                  </div> -->
+                  <!-- <div class="card-footer">
+                      <div class="stats">
+                          <i class="material-icons">access_time</i> Updated three times a day
+                      </div> -->
+                  <!-- </div>  -->
+              <!-- </div> -->
+          <!-- </div> -->
+  </div>
+  
+  <div class="">
+    <font size="4" font color = "#000000">
+    <p>
+        <b>Important contacts : </b>
+    </p>
+    </font>
+<p><font size ="3"color = "#000000">
+   <b> Suwasariya Hotline:1999 | Epidemiology Unit : +94011 269 5112 | Quarantine Unit:+94011 211 2705 </b>
+   </font>
+
+</p>
+<!-- <p><font size ="2" color = "#000000">
+    <b> Epidemiology Unit:+94011 269 5112 </b>
+    </font>
+ </p>
+ <p><font size ="2" color = "#000000">
+    <b> Quarantine Unit:+94011 211 2705 </b>
+    </font>
+ </p> -->
+ 
+</div>
+  <div class="" style="background-color:#ffd54f"><b>Developed by:</b>
+    <a href="https://techitweaks.blogspot.com" target="_blank">Yashodha Samarawickrama | </a> 
+    Information fetched from : <a href="https://hpb.health.gov.lk/">(Health Promotion Bureau, Sri Lanka) </a> and <a href="https://github.com/pomber/covid19" >https://github.com/pomber/covid19</a>
+</div>
+  
+  
+<!-- </div> -->
